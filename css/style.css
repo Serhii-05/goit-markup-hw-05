@@ -183,7 +183,7 @@ a {
 
   border: none;
   cursor: pointer;
-  border-radius: 4%;
+  border-radius: 4px;
   padding: 10px 32px;
 }
 
@@ -506,6 +506,10 @@ a {
   display: flex;
 }
 
+.container-add {
+  margin-right: 70px;
+}
+
 .logo-fot {
   color: var(--text-fone);
 }
@@ -547,7 +551,6 @@ a {
 }
 
 .soc-container {
-  padding-left: 70px;
   padding-top: 12px;
 }
 
@@ -560,7 +563,7 @@ a {
 
   color: var(--text-fone);
 
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .soc-list {
