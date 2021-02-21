@@ -471,6 +471,44 @@ a {
   cursor: pointer;
 }
 
+.thumb {
+  position: relative;
+}
+
+.thumb::before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+}
+
+.thumb:hover::before {
+  opacity: 1;
+}
+
+.work-list-text {
+  position: absolute;
+  top: 63px;
+  left: 24px;
+  bottom: 63px;
+  right: 24px;
+
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+
+  color: var(--text-fone);
+  opacity: 0;
+}
+
+.work-list-text:hover {
+  opacity: 1;
+}
+
 .work-head {
   color: var(--heading-text-color);
 
