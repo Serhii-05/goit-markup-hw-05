@@ -714,3 +714,30 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.modal-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  background-image: url(/images/Ellipse.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.modal-icon {
+  margin: 6px;
+  fill: currentColor;
+}
+
+.modal-icon:hover,
+.modal-icon:focus {
+  color: var(--link-button-blue-color);
+}
