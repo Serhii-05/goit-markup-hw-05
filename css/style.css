@@ -725,6 +725,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 50%;
 
   border: none;
   width: 30px;
