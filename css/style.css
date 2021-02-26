@@ -589,6 +589,7 @@ a {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .container-add {
@@ -634,10 +635,6 @@ a {
 .add-link:hover,
 .add-link:focus {
   color: var(--link-button-blue-color);
-}
-
-.soc-container {
-  padding-top: 12px;
 }
 
 .soc-head {
