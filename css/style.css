@@ -293,8 +293,7 @@ a {
   position: relative;
 }
 
-.direction-item::before {
-  content: "";
+.direction-container {
   position: absolute;
   left: 0;
   bottom: 0;
